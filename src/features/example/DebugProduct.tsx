@@ -20,9 +20,7 @@ export async function DebugProduct({ uid }: { uid: string }) {
       <strong>{product.name}</strong>
       <br />
       {product.stockStatus !== "IN_STOCK" && <span>Out of stock.</span>}
-      Change me!
-      <br />
-      {new Date().toISOString()}
+      Change me!!!
     </div>
   );
 }
